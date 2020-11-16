@@ -1,0 +1,1145 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 100%;
+    line-height: inherit;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 2160px;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    color: #222222;
+    line-height: 1.5em;
+    font-weight: 400;
+    background: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-family: 'Hind', sans-serif;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 100%
+}
+
+.banner-top {
+    display: block;
+    max-width: 1200px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.top-left {
+    float: left;
+}
+
+.top-right {
+    float: right;
+}
+
+.mail {
+    float: left;
+}
+
+.mail a {
+    color: #ffffff;
+    padding-right: 15px;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+    text-decoration: none;
+    outline: none;
+}
+
+.social-comunity {
+    list-style-type: none;
+    float: right;
+}
+
+.social-comunity li {
+    position: relative;
+    float: left;
+    color: #333333;
+    line-height: 20px;
+    margin-right: 20px;
+}
+
+.social-comunity li a {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.social-comunity li a:hover {
+    color: #52c306;
+}
+
+.header-main {
+    max-width: 1200px;
+    position: relative;
+    z-index: 1;
+}
+
+.header-main-box {
+    display: block;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+
+.logo {
+    float: left;
+}
+
+.right-content-header {
+    float: right;
+}
+
+.info-contact {
+    float: left;
+    padding-top: 15px;
+    position: relative;
+}
+
+.info {
+    padding-left: 50px;
+    float: left;
+}
+
+.icon-img {
+    float: left;
+    margin-right: 10px;
+}
+
+.linkbox {
+    padding-top: 13px;
+    margin-left: 50px;
+}
+
+.right-content-header .linkbox {
+    float: right;
+}
+
+.link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: "hind", sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.link-text {
+    background-color: #52c306;
+    position: relative;
+    display: block;
+    z-index: 1;
+    padding: 12px 80px 12px 30px;
+    letter-spacing: 0.05em;
+    border-radius: 0px;
+}
+
+.link-text::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.effect::before {
+    left: 0;
+    width: 0;
+}
+
+.effect:hover::before {
+    width: 100%;
+}
+
+.link-text .btn-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 51px;
+    height: 100%;
+    font-size: 16px;
+    padding: 12px 10px;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.header {
+    background-image: url('https://smartdemowp.com/strnix/wp-content/uploads/2020/06/1-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.header::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.img-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.50;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.main-menu {
+    width: 100%;
+    display: block;
+    background-color: rgb(73, 105, 247);
+}
+
+.main-menu ul {
+    padding: 0 30px;
+    float: left;
+}
+
+.main-menu ul li {
+    display: inline-table;
+    margin-right: 50px;
+    padding: 20px 0;
+    position: relative;
+}
+
+.hover1 {
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.03rem;
+}
+
+.hover1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    border-bottom: 1px solid #ffffff;
+    transition: 0.4s;
+}
+
+.hover1:hover::before {
+    width: 30px;
+}
+
+.main-menu ul li>ul {
+    display: none;
+    position: absolute;
+    width: 300px;
+    z-index: 100;
+    top: 100%;
+    left: 0px;
+}
+
+.main-menu ul li>ul li {
+    display: block;
+    width: 100%;
+    border: 2px solid #eeeeee;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+.main-menu ul li>ul li:hover {
+    background-color: #9a9c9a;
+}
+
+.menu li>.sub-menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #222222;
+    position: relative;
+    z-index: 100;
+}
+
+.main-menu ul li:hover .sub-menu {
+    display: block;
+}
+
+.search {
+    float: right;
+    margin-top: 20px;
+}
+
+.search span {
+    padding: 0 30px 0 20px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border-left: dotted;
+    border-left-width: 4px;
+    cursor: pointer;
+}
+
+.image-layer {
+    max-width: 1200px;
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text-img {
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+}
+
+.text-img i {
+    color: aqua;
+    padding: 0 10px;
+}
+
+.text-info {
+    font-size: 4.7rem;
+    padding: 0 100px 50px 100px;
+    line-height: 100px;
+}
+
+.img-dots {
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    text-align: center;
+}
+
+.dot {
+    position: relative;
+    width: 2px;
+    height: 10px;
+    margin-right: 5px;
+}
+
+.active {
+    height: 30px;
+}
+
+.first-body {
+    width: 100%;
+}
+
+.first-body-elm {
+    max-width: 1200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.elm-left {
+    float: left;
+    width: 600px;
+    position: relative;
+}
+
+.imgelm {
+    width: 100%;
+}
+
+.img-left {
+    display: block;
+    position: relative;
+    padding-left: 110px;
+    animation: animations;
+    animation-duration: 2s;
+}
+
+.img-bottom {
+    display: block;
+    padding: 10px;
+    position: absolute;
+    left: -70px;
+    animation: animations-right;
+    animation-duration: 2s;
+}
+
+.elm-right {
+    width: 600px;
+    float: right;
+}
+
+.elmif {
+    width: 100%;
+    padding: 0 20px;
+    animation: animations;
+    animation-duration: 2s;
+}
+
+.title-text {
+    font-size: 14px;
+    color: #777777;
+}
+
+.title-text i {
+    color: #2315f3;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.elmif h2 {
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+.subtext {
+    font-size: 16px;
+    color: #52c306;
+}
+
+.bottomtitle {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.line {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 3px;
+    background-color: #2315f3;
+}
+
+.dottitle {
+    display: block;
+    width: 3px;
+    height: 3px;
+    background-color: #2315f3;
+    margin-left: 5px;
+    float: left;
+}
+
+.elmtextinfo {
+    padding: 0 20px;
+    font-size: 16px;
+    padding-bottom: 100px;
+}
+
+.texteffect {
+    padding-top: 20px;
+    animation: animations;
+    animation-duration: 1s;
+}
+
+.iconenergy {
+    width: 100%;
+}
+
+.icon {
+    -webkit-column-count: 3;
+    -webkit-column-rule-style: dashed;
+    -webkit-column-rule-color: #bebebe;
+    -webkit-column-rule-width: 1px;
+    -moz-column-count: 3;
+    -moz-column-rule-style: dashed;
+    -moz-column-rule-color: #bebebe;
+    -moz-column-rule-width: 1px;
+    -ms-column-count: 3;
+    -ms-column-rule-style: dashed;
+    -ms-column-rule-color: #bebebe;
+    -ms-column-rule-width: 1px;
+    text-align: center;
+    animation: animations-up;
+    animation-duration: 2s;
+}
+
+.img-solar {
+    height: 150px;
+    background-size: cover;
+}
+
+.img-solar img {
+    width: 70px;
+    height: 70px;
+    margin: 10px 0;
+}
+
+.img-solar p {
+    padding: 0 50px;
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sercond-body {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sercond-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: url(https://smartdemowp.com/strnix/wp-content/themes/strnix/assets/images/background/bg-pattern-1.png) center center repeat;
+}
+
+.elmprogram {
+    max-width: 1200px;
+    padding: 100px 0 50px 0;
+    text-align: center;
+    position: relative;
+}
+
+.titleprogram {
+    width: 100%;
+    line-height: 40px;
+    animation-name: animations;
+    animation-duration: 2s;
+}
+
+.titleprogram h2 {
+    font-size: 2rem;
+}
+
+.bottomtitle2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -25px;
+    padding: 20px 0;
+}
+
+.imgprogram {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.imgobject {
+    height: 100%;
+    margin: 10px;
+    margin-bottom: 0;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.imgobject img {
+    display: block;
+}
+
+.imglinkcontent {
+    display: inline-block;
+}
+
+.linkimg {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.linkimg a {
+    color: rgb(0, 0, 0);
+}
+
+.linkimg a:hover {
+    color: #2315f3;
+}
+
+.imgobject img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgobject::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.8);
+    left: 0;
+    bottom: 0;
+    transition: 0.4s;
+}
+
+.hoverimg::before {
+    height: 0;
+}
+
+.hoverimg:hover::before {
+    height: 100%;
+}
+
+.hidentext {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    left: 0;
+    bottom: -100%;
+    color: #ffff;
+    transition: 0.4s;
+}
+
+.imgobject:hover .hidentext {
+    bottom: 0;
+    transition-delay: 0.5s;
+    border-bottom: 5px solid #52c306;
+}
+
+.elmhiden {
+    padding: 30px;
+}
+
+.flation {
+    width: 100px;
+    height: 100px;
+}
+
+.btncontent {
+    font-size: 2rem;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px;
+    background-color: #eeeeee;
+    line-height: 45px;
+    border-radius: 50%;
+    border: 1px solid #bebebe;
+    cursor: pointer;
+    color: #bebebe;
+}
+
+.btncontent:hover {
+    color: #4922d6;
+    border-color: #4922d6;
+}
+
+.third-body {
+    width: 100%;
+    height: 250px;
+    background-color: #161155;
+    position: relative;
+}
+
+.panel {
+    width: 250px;
+    height: 250px;
+    color: #ffffff;
+    opacity: 0.4;
+    position: absolute;
+    left: -150px;
+    top: -50px;
+    padding: 10px;
+}
+
+.panel img {
+    width: 100%;
+    height: 100%;
+}
+
+.row {
+    width: 1300px;
+    transform: translateY(55px);
+}
+
+.row h2 {
+    float: left;
+    font-size: 2rem;
+    width: 28%;
+    height: 150px;
+    line-height: 40px;
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.form {
+    width: 70%;
+    padding-left: 50px;
+    display: inline-flex;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.inputform {
+    position: relative;
+    width: 32%;
+    display: inline-block;
+}
+
+.form input {
+    width: 100%;
+    height: 50px;
+    padding: 28px 45px;
+    background: none;
+    border: 2px solid #5f5959;
+    position: relative;
+    color: #eeeeee;
+}
+
+.inputform label {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    padding: 20px;
+    line-height: 28px;
+    color: #5f5959;
+}
+
+.form input:focus {
+    border: 2px solid #3276db;
+}
+
+.btnbox {
+    width: 30%;
+    height: 60px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.btnbox .link-text {
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+.btn .link-text .btn-txt {
+    font-weight: 900;
+}
+
+.bodyfour {
+    width: 100%;
+}
+
+.bodyfourcontainer {
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+.bodyfourcontainer .patternimgleft {
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+}
+
+.bodyfourcontainer .patternimgright {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+}
+
+.mainbodyfour {
+    max-width: 1200px;
+}
+
+.services {
+    width: 100%;
+    padding: 10px;
+}
+
+.mainsevices {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.imgelmleft {
+    float: left;
+    width: 40%;
+}
+
+.imgdemo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.imgcircle {
+    width: 150px;
+    height: 150px;
+    z-index: 99;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imgelmleft .imgdemo .imgcircle {
+    position: absolute;
+    right: 0;
+    top: 27%;
+    box-shadow: 3px 1px 10px 1px #c9c5c5;
+}
+
+.imgcircle img {
+    width: 100%;
+    height: 100%;
+}
+
+.textright {
+    float: right;
+    width: 60%;
+}
+
+.textsub {
+    padding: 30px 90px;
+    line-height: 25px;
+}
+
+.textsub h2 {
+    font-size: 2rem;
+}
+
+.wraptext {
+    color: #777777;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.contenttext {
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.getstart {
+    display: inline-block;
+    padding: 20px 0 10px 0;
+    text-decoration-line: underline;
+    text-underline-position: under;
+}
+
+.getstart a {
+    color: #580be6;
+    font-weight: 700;
+}
+
+.getstart i {
+    padding-left: 10px;
+    color: #52c306;
+}
+
+.textleft {
+    float: left;
+    width: 60%;
+    text-align: right;
+    padding: 20px 30px;
+}
+
+.imgelmright {
+    float: right;
+    width: 40%;
+}
+
+.imgelmright .imgdemo img {
+    float: right;
+    position: relative;
+}
+
+.imgelmright .imgdemo .imgcircle {
+    position: absolute;
+    left: 0;
+    top: 80px;
+    box-shadow: -1px 1px 10px 1px #c9c5c5;
+}
+
+.services a:hover {
+    color: #52c306;
+}
+
+.bodyfive {
+    width: 100%;
+}
+
+.bgfirst {
+    position: relative;
+}
+
+.bgfirst::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 550px;
+    background: url(https://smartdemowp.com/strnix/wp-content/themes/strnix/assets/images/background/bg-pattern-1.png) center center repeat;
+}
+
+.bodyfivemain {
+    max-width: 1200px;
+    padding-top: 100px;
+}
+
+.five-elm {
+    width: 100%;
+    padding: 10px;
+}
+
+.elmfiveleft {
+    float: left;
+    width: 40%;
+}
+
+.elmfiveleft .elmtextinfo {
+    padding-bottom: 30px;
+}
+
+.elmfiveleft .linkbox {
+    float: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.elm-five-right {
+    float: right;
+    width: 60%;
+}
+
+.fivecontent {
+    float: right;
+    position: relative;
+}
+
+.btn-tab {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-tab ul {
+    list-style-type: none;
+}
+
+.tab {
+    width: 100%;
+}
+
+.tab img {
+    display: block;
+}
+
+.btnelm {
+    width: 33.3%;
+    position: relative;
+    float: left;
+    font-size: 18px;
+    padding: 30px 0;
+    border-bottom: 2px solid #9a9c9a;
+    background-color: #ffff;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.btn-tab .actived {
+    padding-bottom: 25px;
+    box-shadow: 0px -4px 10px 1px #c0c2c0;
+    border-bottom-color: #52c306;
+    z-index: 3;
+}
+
+.btnelm .btn-sub {
+    display: none;
+    color: #777777;
+    font-size: 15px;
+}
+
+.btn-tab .actived .btn-sub {
+    display: block;
+}
+
+.btn-tab .actived .btn-name {
+    font-weight: 800;
+}
+
+.btnelm span {
+    display: block;
+}
+
+.sub-body-five {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.bgsecond {
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    z-index: -1;
+    background-image: url(http://smartdemowp.com/strnix/wp-content/uploads/2020/06/map-pattern.jpg);
+}
+
+.sub-body-five .content {
+    max-width: 1200px;
+    padding-top: 200px;
+}
+
+.content .method {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.method ul {
+    list-style-type: none;
+}
+
+.method ul li {
+    float: left;
+    width: 25%;
+}
+
+.method-icon {
+    color: #2315f3;
+    font-size: 1.3rem;
+}
+
+.method h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #52c306;
+    margin: 20px 0;
+}
+
+.method p {
+    font-size: 18px;
+}
+
+.body-six {
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg {
+    background-image: url(http://smartdemowp.com/strnix/wp-content/uploads/2020/06/bg-image-1.jpg);
+}
+
+.body-six .imgbg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgbg::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -4;
+    width: 100%;
+    height: 100%;
+    background: #0f1e44;
+    opacity: 0.80;
+}
+
+.main-body-six {
+    max-width: 1200px;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.main-body-six .elmif .title-text {
+    color: #ffffff;
+}
+
+.main-body-six .elmif h2 {
+    color: #ffffff;
+}
+
+.main-body-six .elmif .bottomtitle2 span {
+    background-color: #ffffff;
+}
+
+@keyframes animations {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animations-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animations-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

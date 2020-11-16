@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Love</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,200;0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <h1>Cậu có muốn hẹn hò với mình không , chọn có hoặc không để mình biết nhé <i class="fas fa-heart"></i> !!</h1>
+    <button class="yes">Có</button>
+    <button class="no">Không</button>
+
+    <div class="agree">
+        <div class="content">
+            <h2>Cảm ơn cậu đã đồng ý <i class="fas fa-heart"></i></h2>
+            <p>Mình thích cậu từ lâu lắm rồi ^^ mình nhắn tin nha<i class="fas fa-heart"></i> </p>
+            <a href="https://www.facebook.com/messages/t/viet.luu.5876" type="button"><label for="">Nhắn tin</label></a>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var x = document.querySelector('.no');
+        x.addEventListener('mouseover', move);
+
+        function move() {
+            var rdx = Math.random() * 90 + 1;
+            var rdy = Math.random() * 90 + 1;
+            var xx = rdx + '%';
+            var yy = rdy + '%';
+            x.style.top = yy;
+            x.style.right = xx;
+            x.style.color = '#fff';
+            x.style.background = '#2E2E2E';
+        }
+    </script>
+    <script type="text/javascript">
+        var y = document.querySelector('.yes');
+        y.addEventListener('click', love);
+
+        function love() {
+            document.querySelector('.agree').style.display = 'flex';
+        }
+    </script>
+
+</body>
+
+
+</html>

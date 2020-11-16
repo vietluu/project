@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            transform: translate(50%, 50%);
+            position: relative;
+            top: 50%;
+        }
+        
+        .container {
+            display: block;
+            width: 200px;
+            background-color: grey;
+        }
+        
+        #process {
+            width: 1%;
+            background-color: blue;
+            height: 20px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div id="process">
+                0%
+            </div>
+        </div>
+    </section>
+    <script>
+        var i = 0;
+
+        window.onload = function move() {
+
+            if (i == 0) {
+                i = 1;
+
+                var el = document.getElementById("process");
+                var width = 1;
+                var id = setInterval(demo, 100);
+
+
+                function demo() {
+                    if (width >= 100) {
+                        clearInterval(id);
+                        i = 0;
+                    } else {
+                        width++;
+                        el.style.width = width + "%";
+                        el.innerHTML = width + "%";
+
+
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        hi
+    </title>
+    <style>
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        .form {
+            width: 700px;
+            height: 400px;
+            display: block;
+        }
+        
+        input[type="name"] {
+            width: 300px;
+            height: 30px;
+            float: left;
+            outline: none;
+            padding: 10px;
+        }
+        
+        input[type="email"] {
+            width: 300px;
+            height: 30px;
+            float: right;
+            outline: none;
+            padding: 10px;
+        }
+        
+        .sub {
+            width: 100%;
+            height: 50px;
+            margin: 20px 0 20px 0;
+            outline: none;
+            padding-left: 10px;
+        }
+        
+        label {
+            display: block;
+            font-size: 1.5rem;
+            margin: 0 20px 20px 0;
+        }
+        
+        .mes {
+            width: 100%;
+            padding: 10px 0 200px 10px;
+            outline: none;
+        }
+        
+        button {
+            width: 100px;
+            height: 50px;
+            margin: 10px 0 0 0;
+            background-color: aqua;
+            border: 1px solid blue;
+            border-radius: 5px;
+            color: white;
+            outline: none;
+            cursor: pointer;
+        }
+        
+        p {
+            float: right;
+            margin: 10px;
+            font-size: 1.1rem;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form" action="/contacs.php">
+        <label> Get in touch us by filling contact form below</label>
+        <input type="name" placeholder="*Enter full name">
+        <input type="email" placeholder="*Enter your email address">
+        <input type="text" class="sub" placeholder="Enter your subject">
+        <input type="text" class="mes" placeholder="*Your message here...">
+        <button type="submit">Send message</button>
+        <p>*Please fill all required form field, thanks!</p>
+    </form>
+</body>
+
+</html>

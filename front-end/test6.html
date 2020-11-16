@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title>
+        hi
+    </title>
+    <style>
+        * {
+            margin: 20px auto;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            width: 1200px;
+            height: 2000px;
+            background-color: #e8e6ee;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .title {
+            display: block;
+            width: 100%;
+            height: 150px;
+            padding: 20px;
+        }
+        
+        .title h2 {
+            font-size: 2.5em;
+        }
+        
+        .title p {
+            opacity: 0.5;
+            font-size: 1.2em;
+        }
+        
+        .contents {
+            display: flex;
+            padding: 20px;
+        }
+        
+        .col-1 {
+            display: block;
+            width: 400px;
+        }
+        
+        .col-1 h2 {
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            line-height: 300px;
+            background-color: aqua;
+            color: #e8e6ee;
+            border-radius: 5px;
+        }
+        
+        .col-1 h3 {
+            font-size: 1.5em;
+        }
+        
+        .col-1 p {
+            opacity: 0.5;
+        }
+        
+        .col-2 {
+            width: 800px;
+        }
+        
+        .col-2 ul {
+            list-style-type: none;
+            padding: 0 0 0 20px;
+        }
+        
+        .col-2 ul li {
+            display: block;
+            width: 100%;
+            height: 120px;
+            border-bottom: 1px solid #e083e9;
+            border-bottom-style: dashed;
+        }
+        
+        .col-2 ul li:last-child {
+            border: none;
+        }
+        
+        #top {
+            display: none;
+            z-index: 99;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 20px;
+            right: 10px;
+            outline: none;
+            cursor: pointer;
+            background-color: #504f4f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <button onclick="myfunction()" id="top"> lên đầu </button>
+        <section class="title">
+            <h2><strong>Issues & Plans</strong></h2>
+            <p>
+                Quisque eget nisl id nulla sagitis quis id. Aliquam quis vehicula enim, non aliquam rius.
+            </p>
+            <p>Sed a tellus quis mi rhoncus dignissim.</p>
+        </section>
+        <div class="contents">
+            <div class="col-1">
+                <h2>
+                    Học Web Chuẩn
+                </h2>
+                <h3>
+                    "Turkey Will Continute To Make Structural Ecônmic Reforms"
+                </h3>
+                <p>
+                    Etiam material ut mollis tellus, vel posuere mulla. Etiam sit amet massa sodales aliquam at eget quam. integer ultrices et magna quis.</br>
+                    </br>
+                    Tiam sit amet lacus vitae massa sodales aliquam at eget quam.</br>
+                    Integer ultricies et magna quis.
+                </p>
+            </div>
+            <div class="col-2">
+                <ul>
+                    <li>
+                        <h2>CLIMATE CHANGE</h2>
+                        <P>Etiam material ut mollis tellus, vel posuere mulla. Etiam sit amet massa sodales aliquam at eget quam. integer ultrices et magna quis.</P>
+                    </li>
+                    <li>
+                        <h2>CLIMATE CHANGE</h2>
+                        <P>Etiam material ut mollis tellus, vel posuere mulla. Etiam sit amet massa sodales aliquam at eget quam. integer ultrices et magna quis.</P>
+                    </li>
+                    <li>
+                        <h2>CLIMATE CHANGE</h2>
+                        <P>Etiam material ut mollis tellus, vel posuere mulla. Etiam sit amet massa sodales aliquam at eget quam. integer ultrices et magna quis.</P>
+                    </li>
+                    <li>
+                        <h2>CLIMATE CHANGE</h2>
+                        <P>Etiam material ut mollis tellus, vel posuere mulla. Etiam sit amet massa sodales aliquam at eget quam. integer ultrices et magna quis.</P>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="pass.js">
+    </script>
+</body>
+
+</html>
